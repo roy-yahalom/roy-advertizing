@@ -42,7 +42,7 @@ export const demoSpec: AdSpec = {
       durationMs: 3000
     },
     { type: 'carousel',
-      title: 'Built for modern teams',
+      title: 'Built for modern teams and individuals',
       images: ['demo/shot-1.jpg','demo/shot-2.jpg','demo/shot-3.jpg'],
       durationMs: 3000
     },
