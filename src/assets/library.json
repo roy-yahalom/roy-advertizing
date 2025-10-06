@@ -1,0 +1,27 @@
+{
+  "$schema": "https://example.local/asset-schema-v1.json",
+  "icons": [
+    {"id": "check", "src": "icons/check.svg", "tags": ["ui","trust","generic"], "tone": ["calm","bold","playful"], "weight": 3},
+    {"id": "star",  "src": "icons/star.svg",  "tags": ["social","rating","trust"], "tone": ["bold","playful"], "weight": 2},
+    {"id": "bolt",  "src": "icons/bolt.svg",  "tags": ["speed","power"], "tone": ["bold"], "weight": 2},
+    {"id": "shield","src": "icons/shield.svg","tags": ["security","trust"], "tone": ["calm","bold"], "weight": 2},
+    {"id": "chart", "src": "icons/chart.svg", "tags": ["finance","analytics"], "tone": ["calm"], "weight": 1}
+  ],
+  "backgrounds": [
+    {"id": "dots-dark", "src": "patterns/dots-dark.png", "tags": ["subtle"], "tone": ["calm"], "ar": ["1x1","9x16","16x9"], "weight": 2},
+    {"id": "grid-dark", "src": "patterns/grid-dark.png", "tags": ["tech"], "tone": ["calm","bold"], "ar": ["1x1","9x16","16x9"], "weight": 1}
+  ],
+  "music": [
+    {"id": "soft-bed",  "src": "demo/music.mp3",   "tags": ["soft","corporate"], "tone": ["calm"],  "bpm": 92,  "weight": 2},
+    {"id": "pulse-bed", "src": "demo/music2.mp3",  "tags": ["modern","pulse"],   "tone": ["bold"],  "bpm": 108, "weight": 2},
+    {"id": "play-bed",  "src": "demo/music3.mp3",  "tags": ["playful"],          "tone": ["playful"], "bpm": 120, "weight": 1}
+  ],
+  "sfx": [
+    {"id": "whoosh-1", "src": "sfx/whoosh-1.mp3", "tags": ["transition"], "weight": 1},
+    {"id": "pop-1",    "src": "sfx/pop-1.mp3",    "tags": ["ui"],         "weight": 1}
+  ],
+  "transitions": [
+    {"id": "xfade-250ms", "type": "crossfade", "ms": 250},
+    {"id": "xfade-300ms", "type": "crossfade", "ms": 300}
+  ]
+}

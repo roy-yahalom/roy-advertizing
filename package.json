@@ -1,0 +1,24 @@
+{
+  "name": "remotion-hello",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "remotion preview",
+    "build": "remotion build",
+    "render:1x1":  "remotion render src/index.ts Demo-1x1  out-1x1.mp4  --width=1080 --height=1080",
+    "render:9x16": "remotion render src/index.ts Demo-9x16 out-9x16.mp4 --width=1080 --height=1920",
+    "render:16x9": "remotion render src/index.ts Demo-16x9 out-16x9.mp4 --width=1920 --height=1080",
+    "render:draft":"remotion render src/index.ts Demo-9x16 out-draft.mp4 --crf=35 --every-nth-frame=2"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "remotion": "4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "5.4.0",
+    "@types/react": "18.2.66",
+    "@types/react-dom": "18.2.22"
+  }
+}
