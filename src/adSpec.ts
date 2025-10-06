@@ -37,7 +37,7 @@ export const demoSpec: AdSpec = {
     },
     { type: 'split_feature',
       title: 'Plan, track, and grow',
-      body: 'Connect accounts. See cash, crypto, and investments in one clean view.',
+      body: 'Connect accounts. See cash, crypto, cash and investments in one clean view.',
       media: {type: 'image', src: 'demo/product-shot.png'},
       durationMs: 3000
     },
