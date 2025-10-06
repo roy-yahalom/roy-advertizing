@@ -2,8 +2,6 @@
 
 // Basic color utils + WCAG contrast helpers
 
-const clamp01 = (x: number) => Math.max(0, Math.min(1, x));
-
 export const hexToRgb = (hex: string) => {
   const clean = hex.replace('#', '');
   const v = clean.length === 3
